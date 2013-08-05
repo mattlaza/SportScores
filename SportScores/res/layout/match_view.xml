@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:columnCount="7" >
+
+    <TextView
+        android:id="@+id/matchViewTeams"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="6"
+        android:layout_row="0"
+        android:gravity="center_horizontal"
+        android:text="@string/team1vsteam2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/matchViewTeam1Flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="top|left"
+        android:layout_row="1"
+        android:layout_rowSpan="6"
+        android:contentDescription="team1Image"
+        android:src="@drawable/wce" />
+
+    <TextView
+        android:id="@+id/matchViewTeam1Rd1"
+        android:layout_column="1"
+        android:layout_gravity="center|top"
+        android:layout_row="1"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/matchViewTeam2Flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="5"
+        android:layout_gravity="right|top"
+        android:layout_row="1"
+        android:layout_rowSpan="6"
+        android:contentDescription="team2Image"
+        android:src="@drawable/wce" />
+
+    <TextView
+        android:id="@+id/matchViewRd1"
+        android:layout_column="3"
+        android:layout_gravity="center|top"
+        android:layout_row="1"
+        android:text="Rd1"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewRd2"
+        android:layout_column="3"
+        android:layout_gravity="center|top"
+        android:layout_row="2"
+        android:text="Rd2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewRd3"
+        android:layout_column="3"
+        android:layout_gravity="center|top"
+        android:layout_row="3"
+        android:text="Rd3"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewRd4"
+        android:layout_column="3"
+        android:layout_gravity="center|top"
+        android:layout_row="4"
+        android:text="Rd4"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewTeam2Rd1"
+        android:layout_column="4"
+        android:layout_gravity="center|top"
+        android:layout_row="1"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewTeam1Rd2"
+        android:layout_column="1"
+        android:layout_gravity="center|top"
+        android:layout_row="2"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewTeam1Rd3"
+        android:layout_column="1"
+        android:layout_gravity="center|top"
+        android:layout_row="3"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewTeam1Rd4"
+        android:layout_column="1"
+        android:layout_gravity="center|top"
+        android:layout_row="4"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewTeam2Rd2"
+        android:layout_column="4"
+        android:layout_gravity="center|top"
+        android:layout_row="2"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/matchViewTeam2Rd3"
+        android:layout_column="4"
+        android:layout_gravity="center|top"
+        android:layout_row="3"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/matchViewTeam2Rd4"
+        android:layout_column="4"
+        android:layout_gravity="center|top"
+        android:layout_row="4"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/matchViewFlag"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="6"
+        android:layout_columnSpan="6"
+        android:text="Live"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</GridLayout>
